@@ -1,3 +1,4 @@
+USE companyDatabase;
 INSERT INTO department (name)
 VALUES 
 ("Teller"),

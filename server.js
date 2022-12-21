@@ -1,6 +1,14 @@
 const inquirer = require ('inquirer');
-require('console.table');
-const db = require('./db');
+require = ("console.table");
+const db = ('./db');
+
+
+
+const startApp = () => {
+    clear();
+    console.table(tableData);
+    prompts();
+}
 
 const prompts = () => {
     inquirer
